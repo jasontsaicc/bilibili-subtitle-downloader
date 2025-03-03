@@ -1,6 +1,6 @@
-# BiliCC Subtitle Downloader
+# BiliBiliSubtitleDownload Subtitle Downloader
 
-BiliCC Subtitle Downloader is a Python application that allows users to download subtitles from Bilibili videos. It supports downloading subtitles in multiple languages and converting them from Simplified Chinese to Traditional Chinese.
+BiliBiliSubtitleDownload Subtitle Downloader is a Python application that allows users to download subtitles from Bilibili videos. It supports downloading subtitles in multiple languages and converting them from Simplified Chinese to Traditional Chinese.
 
 ## Features
 
@@ -19,7 +19,7 @@ BiliCC Subtitle Downloader is a Python application that allows users to download
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/BiliCC-Subtitle-Downloader.git
+   git clone https://github.com/yourusername/BiliBiliSubtitleDownload-Subtitle-Downloader.git
    ```
 
 2. Install the required packages:
@@ -31,7 +31,7 @@ BiliCC Subtitle Downloader is a Python application that allows users to download
 
 1. Run the application:
    ```
-   python BiliccSrt_GUI.py
+   python BiliBiliSubtitleDownloadSrt_GUI.py
    ```
 
 2. Log in to Bilibili in your browser and load the cookie using the "Load Firefox Cookie" button.
