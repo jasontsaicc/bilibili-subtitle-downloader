@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bilibili-subtitle"
+version = "6.0.0"
+description = "下載 Bilibili 影片字幕並轉換為 SRT 格式"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28",
+    "opencc-python-reimplemented>=0.1.7",
+    "browser-cookie3>=0.19",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-mock>=3.10",
+    "responses>=0.23",
+]
+
+[project.scripts]
+bilibili-subtitle = "bilibili_subtitle.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bilibili_subtitle"]
